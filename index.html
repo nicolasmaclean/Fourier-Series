@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fourier Series</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div id="sliders">
+        <div class="container">
+            <label for="iterations" > Circles </label>
+            <input type="text" id="iterations" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        </div>
+        <div class="container">
+            <label for="speed" > Speed </label>
+            <input type="range" id="speed" value="0.025" min="0.001" max=".1" step=".001">
+        </div>
+        <div class="container">
+            <label for="square" > Square Wave </label>
+            <input type="radio" name="type" id="square" class="check" checked>
+        </div>
+        <div class="container">
+            <label for="sawtooth" > Sawtooth </label>
+            <input type="radio" name="type" id="sawtooth" class="check">
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <!-- <script src="js/squareWave2.js"></script> -->
+</body>
+</html>

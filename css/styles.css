@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+
+#sliders {
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sliders div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#iterations {
+    background: #333;
+    /* border: none; */
+    color: #fff;
+    border-top: #fff 1px;
+    border-left: #fff 1px;
+    border-right: #fff 1px;
+    width: 2rem;
+}
